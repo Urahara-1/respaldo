@@ -2,7 +2,7 @@
 
 let empleados =["juan","roberto","maria","ana","ayelen","carlos","federico","ignacio","ramiro","nicolas"]
 
-//console.log("cantidad de empleados" +  empleados.length);
+//console.log("cantidad de empleados"+  +  empleados.length);
 
 let mensaje="";
 
@@ -29,7 +29,7 @@ console.log("-------------------------------------------------");
 
 
 for (let i = 0; i < empleados.length; i++) {
-   mensaje = empleados[i];
+   mensaje += empleados[i] +'<br>';
    document.getElementById('caja').innerHTML = mensaje
     
 }
