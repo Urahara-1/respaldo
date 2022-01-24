@@ -1,0 +1,12 @@
+*::first-letter{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+
+
+
+body{
+    background-color: brown;
+}
