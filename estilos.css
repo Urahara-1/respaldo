@@ -1,6 +1,6 @@
 *::first-letter{
     text-transform: uppercase;
-  margin: auto;
+    margin: auto;
   
 }
 
@@ -10,6 +10,11 @@ body{
 }
 
 
-#caja{
+#caja , #caja1 , #caja2{
     margin-left: 50px;
 }
+
+h1,h2{
+    text-align: center;
+}
+
