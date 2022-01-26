@@ -8,6 +8,7 @@ let mensaje="";
 let mensaje1="";
 let mensaje2="";
 
+
 for (let i = 0; i < empleados.length; i++) {
    console.log(empleados[i]);
 
@@ -57,3 +58,15 @@ while (i< empleados.length) {
 
 //llamo a la funcion para que cumpla su trabajo 
 imprimir_empleados();
+
+//funcion con parametros
+
+function sumar(num1 , num2 , num3) {
+   let resultado = num1 + num2 + num3;
+  return resultado; 
+   
+}
+document.getElementById('caja3').innerHTML = sumar(15,20,35);
+/* console.log(sumar(15,20,35)); */
+
+
