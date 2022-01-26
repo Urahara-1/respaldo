@@ -70,3 +70,14 @@ document.getElementById('caja3').innerHTML = sumar(15,20,35);
 /* console.log(sumar(15,20,35)); */
 
 
+//funciones flecha
+
+const multiplicar = (a, b, c) => {
+let total = a * b * c;
+return total;
+
+}
+document.getElementById('caja4').innerHTML = multiplicar(3,4,5)
+
+
+/* console.log(multiplicar(3,4,5)); */
