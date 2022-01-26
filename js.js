@@ -81,3 +81,11 @@ document.getElementById('caja4').innerHTML = multiplicar(3,4,5)
 
 
 /* console.log(multiplicar(3,4,5)); */
+
+//funcion flecha con un solo elemento
+
+const itemlista = (nombre) =>'<li>'+ nombre + '</li>'
+
+/* console.log(itemlista('roberto')); */
+
+document.getElementById('caja5').innerHTML =itemlista('roberto');
