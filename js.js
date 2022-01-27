@@ -69,7 +69,6 @@ function sumar(num1 , num2 , num3) {
 document.getElementById('caja3').innerHTML = sumar(15,20,35);
 /* console.log(sumar(15,20,35)); */
 
-
 //funciones flecha
 
 const multiplicar = (a, b, c) => {
