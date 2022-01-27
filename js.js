@@ -84,7 +84,7 @@ document.getElementById('caja4').innerHTML = multiplicar(3,4,5)
 
 //funcion flecha con un solo elemento
 
-const itemlista = (nombre) =>'<li>'+ nombre + '</li>'
+const itemlista = (nombre) => '<li>'+ nombre + '</li>'
 
 /* console.log(itemlista('roberto')); */
 
