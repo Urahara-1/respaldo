@@ -2,6 +2,7 @@
 
 let empleados =["juan","roberto","maria","ana","ayelen","carlos","federico","ignacio","ramiro","nicolas"]
 
+
  
 //console.log("cantidad de empleados"+  +  empleados.length);
 
