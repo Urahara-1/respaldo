@@ -2,6 +2,7 @@
 
 let empleados =["juan","roberto","maria","ana","ayelen","carlos","federico","ignacio","ramiro","nicolas"]
 
+ 
 //console.log("cantidad de empleados"+  +  empleados.length);
 
 let mensaje="";
@@ -13,6 +14,7 @@ for (let i = 0; i < empleados.length; i++) {
    console.log(empleados[i]);
 
 }
+
 
 console.log("---------------------------------------------");
 
@@ -67,7 +69,7 @@ function sumar(num1 , num2 , num3) {
    
 }
 document.getElementById('caja3').innerHTML = sumar(15,20,35);
-/* console.log(sumar(15,20,35)); */
+/*   console.log(sumar(15,20,35)); */ 
 
 //funciones flecha
 
